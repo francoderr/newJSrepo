@@ -11,8 +11,12 @@ class Add {
 by the question */
     print() {
         for(let v of this.words) {
+            
+        // Instead of having this console.log here, create a variable that holds the required string here. 
+            // The final string should be separated by $ instead of a space
              console.log(v);
         }
+        // Then move console.log here so it prints the above variable only once.
     } 
 //only change code above this line #if possible
 
