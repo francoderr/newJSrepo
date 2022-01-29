@@ -1,8 +1,3 @@
-/*i need to save this code
-i need to find the solution
-to the last question on the 
-javascript course */
-
 class Add {
     constructor(...words) {
         this.words = words;
@@ -11,12 +6,11 @@ class Add {
 by the question */
     print() {
         for(let v of this.words) {
-            
-        // Instead of having this console.log here, create a variable that holds the required string here. 
-            // The final string should be separated by $ instead of a space
-             console.log(v);
+            var symbol = '$';
+            var string = '$' + this.words.join(symbol) + '$';
         }
-        // Then move console.log here so it prints the above variable only once.
+        console.log(string);
+
     } 
 //only change code above this line #if possible
 
